@@ -1,0 +1,286 @@
+:root{
+  --lotsOfYellow: #F0A500;
+  --kindaBlue: #334756;
+  --navyBlue: #082032;
+  --black: #000000;
+  }
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+@keyframes eventsFadeIn{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+
+.event-section{
+width:100%;
+margin-top: 100px;
+height:100vh;
+position:relative;
+bottom:1000px;
+overflow:hidden;
+
+
+
+}
+
+.bg-image{
+  background:url(events-background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 99vw;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  overflow: hidden;
+  position:relative;
+  top:100px;
+
+}
+section .botBox{
+  width : 50%;
+  height : 25%;
+  float:left;
+  padding:50px;
+  box-sizing:border-box;
+  position:relative;
+  top:20%;
+  right:960px;
+
+
+
+}
+section .botBox .content2{
+  color:#fff;
+  background : rgba(8, 31, 48, .5);
+  padding:40px;
+  transition:.5s;
+  text-align: center;
+  justify-content: center;
+  user-select:none;
+
+}
+
+section .botBox .content2 h1{
+ margin:0;
+ padding:0;
+ font-size:50px;
+ text-transform: uppercase;
+
+
+}
+section .botBox .content2 p{
+  margin:10px 0 0;
+  padding:0;
+
+
+
+}
+section .botBox .content2:hover , .active{
+ background-color: grey;
+}
+
+section .leftBox{
+  width : 50%;
+  height : 25%;
+  float:left;
+  padding:50px;
+  box-sizing:border-box;
+  position:relative;
+  top:40%;
+  z-index:1;
+
+
+
+}
+section .leftBox .content{
+  color:#fff;
+  background : rgba(8, 31, 48, .5);
+  padding:40px;
+  transition:.5s;
+  text-align: center;
+  justify-content: center;
+  user-select:none;
+
+}
+
+section .leftBox .content h1{
+ margin:0;
+ padding:0;
+ font-size:50px;
+ text-transform: uppercase;
+
+
+}
+section .leftBox .content p{
+  margin:10px 0 0;
+  padding:0;
+
+
+
+}
+
+.events-active{
+background:var(--navyBlue)  !important;
+}
+section .botBox .content2:hover {
+background: var(--kindaBlue) !important;
+}
+section .leftBox .content:hover {
+background-color: var(--kindaBlue) ;
+}
+section .events{
+   position: absolute;
+   top:7%;;
+   right:20px;
+   width:50%;
+   height: 100%;
+   background: rgba(8, 31, 48, .7);
+   float:right;
+   box-sizing:border-box;
+   overflow-y:auto;
+}
+section .events::-webkit-scrollbar {
+display: none;
+}
+
+
+section .events ul{
+position: absolute;
+top:50%;
+transform:translateY(-50%);
+margin:0;
+padding:40px;
+box-sizing:border-box;
+
+
+
+}
+section .events ul li{
+list-style:none;
+background: #fff;
+box-sizing:border-box;
+height:200px;
+margin: 15px 0 ;
+width:880px;
+position:relative;
+
+}
+section .events ul li .time{
+   position:relative;
+   padding:20px;
+   background:var(--kindaBlue);
+   box-sizing:border-box;
+   width:30%;
+   height:100%;
+   float: left;
+   text-align:center;
+   transition:.5s;
+
+}
+section .events ul li:hover .time {
+  background:var(--navyBlue);
+}
+
+section .events ul li .time h2{
+ position:absolute;
+ margin:0;
+ padding:0;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ color:#fff;
+ font-size:30px;
+ line-height:40px;
+ overflow-y:auto;
+
+}
+section .events ul li .time h2 span{
+  font-size:25px;
+}
+section .events ul li .details{
+padding:20px;
+background:#fff;
+box-sizing:border-box;
+width:70%;
+height:100%;
+float:left;
+
+}
+section .events ul li .details h3{
+  position:relative;
+  margin:0;
+  padding:0;
+  font-size:22px;
+}
+section .events ul li .details p{
+  position:relative;
+  margin:10px 0 0;
+  padding:0;
+  font-size:16px;
+}
+section .events ul li .details p span{
+
+  font-weight:bold;
+}
+section .events ul li .details a{
+  display: block;
+  text-decoration:none;
+  color:var(--navyBlue);
+  padding:10px 15px;
+  border:2px solid #262626;
+  margin-top:15px;
+  font-size:18px;
+  transition:.5s;
+  float:right;
+
+
+
+}
+
+section .events ul li .details a:hover{
+ background:var(--navyBlue);
+ color:#fff;
+ border-color:var(--navyBlue);
+
+}
+#to-past-events{
+    position:relative;
+    top:850px;
+    right:900px;
+    width:90px;
+    background-color:rgba(8, 31, 48, .7);
+    color:white;
+    height:50px;
+    border: transparent;
+    border-radius:25px;
+}
+#to-upcoming-events{
+  position:relative;
+  top:850px;
+  left:770px;
+  width:90px;
+  background-color:rgba(8, 31, 48, .7);
+  color:white;
+  height:50px;
+  border: transparent;
+  border-radius:25px;
+  opacity:0;
+
+}
+
+#fadeinlol{
+animation: eventsFadeIn;
+animation-duration:1s;
+overflow: hidden;
+}
+#events-whole-thing{
+height:100vh;
+}

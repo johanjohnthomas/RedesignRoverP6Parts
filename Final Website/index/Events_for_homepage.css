@@ -1,0 +1,115 @@
+.events-box{
+    position: relative;
+    background-color: whitesmoke;
+    color: white;
+    height:750px;
+    width:70%;
+    border-top: solid 5px var(--navyBlue);
+    border-radius: 15px;
+    left: 50%;
+    margin-left: -35%;
+    font-size: 20px;
+}
+.events-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--navyBlue);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50px
+}
+.past-events-button{
+    width: 156px;
+}
+.event-content{
+    display: flex;
+    overflow: hidden;
+}
+.past-events{
+    position: absolute;
+    width:100%;
+    transition: opacity 0.3s;
+}
+.upcoming-events{
+    position: absolute;
+    transition: opacity 0.3s;
+    width:100%;
+}
+.upcoming-events-button:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.past-events-button:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+    user-select: none;
+}
+.events-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+    margin: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+    text-align: justify;
+
+}
+.events-grid > div{
+    background-color: var(--kindaBlue);
+    padding: 5px;
+    height: 280px;
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+.events-info{
+    padding: 5px;
+}
+.event-learn-more{
+    text-decoration: none;
+    color: var(--lotsOfYellow);
+}
+.event-learn-more:hover{
+    cursor: pointer;
+    text-decoration: underline var(--lotsOfYellow);
+}
+.event-imgs{
+    height: 160px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.events-navbar > div{
+    padding: 16px;
+}
+.events-dates{
+    color: white;
+    font-weight: 600;
+}
+.events-info{
+    color:white;
+}
+@media (max-width:1400px) {
+
+    .events-grid > div{
+        font-size:10px;
+        grid-template-columns:auto auto auto;
+    }
+}
+@media (max-width:1280px) {
+
+    .events-grid > div{
+        font-size:10px;
+    }
+}
+@media (max-width:1280px) {
+
+    .events-box{
+        display:none;
+    }
+}

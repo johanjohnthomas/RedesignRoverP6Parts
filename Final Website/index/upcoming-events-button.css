@@ -1,0 +1,30 @@
+.upcoming-events-button{
+    font-weight: 600;
+    border-radius: 10px 10px 0px 0px;
+    background-color: whitesmoke;
+    color: rgba(44, 41, 47, 1);
+}
+.upcoming-events-button::before {
+    content: "";
+    position: absolute;
+    background-color: var(--navyBlue);
+    top: 30px;
+    left: 136px;
+    height: 20px;
+    width: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 0 0 whitesmoke;
+}
+.upcoming-events-button::after {
+    content: "";
+    position: absolute;
+    background-color: var(--navyBlue);
+    top: 30px;
+    left: 354px;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: -5px 5px 0 0 whitesmoke;
+}

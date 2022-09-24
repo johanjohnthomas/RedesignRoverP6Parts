@@ -1,0 +1,148 @@
+*{
+    z-index: 1;
+    overflow-x: hidden;
+}
+body{
+    --color-primary: blue;
+    --color-primary-dark: pink;
+    --color-secondary: red;
+    --color-error: red;
+    --color-success: green;
+    --border-radius : 4px;
+    --nexus:4px;
+    --lotsOfYellow: #F0A500;
+    --kindaBlue: #334756;
+    --navyBlue: #082032;
+    --black: #000000;
+
+    margin:0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+.bg-image{
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.containerlogin{
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0,0.2);
+    border-radius: var(--border-radius);
+    background: whitesmoke;
+
+}
+.containerlogin,
+.form__inout,
+.form__button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.containerlogin2{
+    display:none;
+
+}
+.formlogin > *:first-child{
+    margin-top: 0;
+}
+.formlogin > *:last-child{
+    margin-top: 0;
+}
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form__message-success{
+    color: green;
+}
+.form__message--error{
+    color: darkred;
+}
+.form__input-group{
+    margin-top: 1rem;
+}
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid white;
+    outline: none;
+    background: white;
+    transition: background 0.2s, border-color 0.2;
+}
+.form__input:focus{
+    border-color: var(--navyBlue);
+    background: white;
+}
+.form__input--error{
+    color: red;
+    border-color: red;
+}
+.form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+}
+.form__button{
+    width: 100%;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border: black;
+    border-radius: black;
+    outline: none;
+    cursor: pointer;
+    background: var(--kindaBlue);
+}
+.form__button:hover{
+    background: var(--navyBlue);
+
+}
+.form__button:active{
+    transform: scale(0.98);
+}
+.form__text{
+    text-align: center;
+}
+.form__link{
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form__text:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+.containerlogin2{
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0,0.2);
+    border-radius: var(--border-radius);
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+.containerlogin{
+display:block;
+}

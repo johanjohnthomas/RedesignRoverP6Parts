@@ -1,0 +1,104 @@
+:root{
+    --lotsOfYellow: #F0A500;
+    --kindaBlue: #334756;
+    --navyBlue: #082032;
+    --black: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper h1{
+    font-size: 50px;
+    margin: 25px;
+    text-align: center;
+    font-weight: 500;
+    text-align: center;
+}
+.content-box{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+}
+.card{
+    min-height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--black);
+    margin: 20px 40px 40px 40px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.overlay-overback-img{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+}
+.card i{
+    margin: 20px;
+    color: #ff5724;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    font-size: 20px;
+    color: var(--black);
+    padding: 35px;
+    text-align: justify;
+}
+
+.card:hover i,
+.card:hover p{
+    color:#fafafa;
+}
+.card:hover h2{
+    font-weight: 600;
+}
+.card:nth-child(1):hover{
+    background-image: url('machine+sleeving.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+.card:nth-child(2):hover{
+    background-image: url('refurbishing.jpg');
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background-image: url('chroming.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+.card:nth-child(3):hover{
+    background-image: url('chroming.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+.card:nth-child(4):hover{
+    background-image: url('polishing.jpg');
+    background-size: cover;
+    transition: 0.5s;
+}
+.overlay-overback-img:hover{
+    background-color: var(--lotsOfYellow);
+    opacity: 0.8;
+    color: white;
+    transition: 0.5s;
+    cursor: default;
+}
