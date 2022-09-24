@@ -1,0 +1,118 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.store-details{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+}
+.store-item-page-nav{
+    display: flex;
+    position: relative;
+    padding-left: 15%;
+    cursor: default;
+}
+.store-item-page-nav-links{
+    text-decoration: none;
+    color: black;
+}.store-item-page-nav-links:hover{
+    text-decoration: underline black;
+    cursor: pointer;
+}
+.store-item-page-box{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 60px;
+}
+.store-item-page-img{
+    width: 40%;
+}
+.store-item-page-img > img{
+    width: 100%;
+    height: 100%;
+
+}
+.store-item-page-content{
+    margin-left: 30px;
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    padding: 20px;
+}
+.store-item-page-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.store-item-page-under-title{
+    display: flex;
+}
+.store-item-page-under-title >div{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.store-item-page-review-ask:hover{
+    text-decoration: underline black;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.store-item-page-stock{
+    padding: 20px 0px 20px 10px;
+    color: green;
+}
+.store-item-page-price{
+    font-size: 18px;
+    padding: 0px 0px 30px 10px;
+}
+.store-item-page-add-to-cart{
+    display: flex;
+}
+#store-item-page-quantity{
+    height: 45px;
+    width: 80px;
+    padding: 5px;
+}
+.store-item-page-add-to-cart-button {
+  background-color: var(--lotsOfYellow);
+  border: solid 2px var(--lotsOfYellow);
+  height: 45px;
+  width: 200px;
+  color: white;
+  margin-left: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.store-item-page-add-to-cart-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  cursor: pointer;
+}
+.store-item-page-add-to-wishlist{
+    height: 29px;
+    margin: 8px;
+}
+.store-item-page-add-to-wishlist > img{
+    height: 29px;
+}
+.store-item-page-add-to-wishlist:hover{
+    background-color: rgba(218, 218, 218, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.store-item-page-description{
+    margin: 50px 15% 0px 15%;
+    background-color: white;
+    padding: 30px 35px 30px 35px;
+    font-size: 30px;
+}
+.store-item-page-description > p{
+    font-size: 20px;
+}

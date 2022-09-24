@@ -1,0 +1,213 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+#store-page-added-to-cart-notification{
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    z-index: 2;
+    width: 250px;
+    height: 300px;
+    padding: 20px 30px 20px 30px;
+    background-color: white;
+    font-size: 18px;
+    overflow: hidden;
+}
+.added-to-cart-notification-item{
+    font-size: 14px;
+}
+.added-to-cart-notification-buttons{
+    position: relative;
+    bottom: -70px;
+}
+.added-to-cart-notification-button{
+    background-color: var(--lotsOfYellow);
+    border: solid 2px var(--lotsOfYellow);
+    padding-top: 3px;
+    height: 31px;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.added-to-cart-notification-button:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+.added-to-cart-notification-buttons-links{
+    text-decoration: none;
+}
+.store-search{
+    position: relative;
+    background-color: var(--navyBlue);
+    top: 50px;
+    width: 70%;
+    height:100px;
+    margin-left: 15%
+}
+
+.store-search-bar{
+    display: flex;
+    margin-left: 23%;
+}
+
+#store-search-bar-textbox{
+    height:50px;
+    width: 700px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+#store-search-button{
+    width: 50px;
+    height: 50px;
+    background-color: var(--lotsOfYellow);
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.store-details{
+    display: flex;
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 40px;
+}
+.store-products-count{
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.store-sort-dropdown{
+    position: absolute;
+    width: 170px;
+    height:40px;
+    background-color: white;
+    left: 1448px;
+    border-radius: 5px;
+    padding-top:10px;
+    padding-left: 20px;
+    font-size: 18px;
+    user-select: none;
+}
+.store-sort-dropdown:hover{
+    background-color: lightgrey;
+    cursor: default;
+}
+.store-sort-content{
+    position: absolute;
+    top: 40px;
+    left: 1448px;
+    width: 170px;
+    height: 135px;
+    padding: 5px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    user-select: none;
+}
+.store-sort-type{
+    padding-top: 5px;
+    height: 25%;
+}
+.store-sort-type:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+#store-sort-down-arrow{
+    position:relative;
+    bottom: 7px;
+}
+.store-elements{
+    top: 100px;
+    display: flex;
+    width: 100%;
+}
+.cat-list-box{
+    width: 250px;
+    height:710px;
+    margin: 10px;
+    margin-left: 15%;
+    margin-top: 100px;
+    background-color: white;
+    user-select: none;
+    cursor: cursor;
+}
+.cat-list{
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.cat-list > div{
+    font-size: 16px;
+}
+.products{
+    margin-top: 100px;
+}
+.store-items{
+    display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.store-item{
+    background-color: white;
+    height: 340px;
+    width: 250px;
+    margin: 0px 10px 20px 10px;
+    overflow: hidden;
+}
+.store-item > a > img{
+    width: 100%;
+    height: 52%;
+    cursor: pointer;
+}
+.store-item-info{
+    padding: 10px;
+    cursor: default;
+}
+.store-item-info  >a {
+    text-decoration: none;
+    color: var(--black);
+}
+.store-item-info >a:hover{
+        cursor: pointer;
+        color: var(--lotsOfYellow);
+        text-decoration: underline;
+}
+.add-to-cart-button {
+  background-color: var(--lotsOfYellow);
+  border: solid 2px var(--lotsOfYellow) ;
+  color: white;
+  margin-left: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.add-to-cart-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  cursor: pointer;
+}
+.store-page-switch{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.store-page-switch >div{
+    height: 30px;
+    width: 30px;
+    padding-left: 8px;
+    margin: 10px;
+}
+.store-page-switch-link{
+    text-decoration: none;
+    color:black;
+}
+.store-page-switch-link:hover{
+    text-decoration: underline black;
+}

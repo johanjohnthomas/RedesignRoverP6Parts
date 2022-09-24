@@ -1,0 +1,18 @@
+.past-events-button{
+    font-weight: 600;
+    border-radius: 10px 10px 0px 0px;
+    background-color: whitesmoke;
+    color: rgba(44, 41, 47, 1);
+}
+.past-events-button::after {
+    content: "";
+    position: absolute;
+    background-color: var(--navyBlue);
+    top: 30px;
+    left: 156px;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: -5px 5px 0 0 whitesmoke;
+}
