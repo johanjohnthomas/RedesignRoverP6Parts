@@ -512,7 +512,7 @@ transition:2s ease;
     /*history*/
     #history-parallax {
         /* The image used */
-        background-image: url("images/p6_10.jpg");
+        background-image: url("./Images/p6_10.jpg");
 
         /* Full height */
         height: 800px;
