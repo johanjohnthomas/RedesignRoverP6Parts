@@ -1,7 +1,7 @@
 var currentSlideIndex = -1;
 
     
-var slides = ['<img class = "fadeinanimation" src = "images/slideshow1.jpg" style="width:100%">','<img class = "fadeinanimation"  src = "images/slideshow2.png" style="width:100%">','<img class = "fadeinanimation" src = "images/slideshow3.png" style="width:100%;">'];
+var slides = ['<img class = "fadeinanimation" src = "./Images/slideshow1.jpg" style="width:100%">','<img class = "fadeinanimation"  src = "./Images/slideshow2.png" style="width:100%">','<img class = "fadeinanimation" src = "./Images/slideshow3.png" style="width:100%;">'];
 
 var dots = ['<span class = "dot" class = "active" id="dot1" onclick="currentSlide(1)" style = "background-color:#F0A500;"></span> <span class = "dot" id="dot2" onclick="currentSlide(2)"></span><span class = "dot" id="dot3" onclick="currentSlide(3)"></span>'
 ,'<span class = "dot" id="dot1" onclick="currentSlide(1)"></span> <span class = "dot" class = "active" id="dot2" onclick="currentSlide(2)" style = "background-color:#F0A500;"></span><span class = "dot" id="dot3" onclick="currentSlide(3)"></span>', 
