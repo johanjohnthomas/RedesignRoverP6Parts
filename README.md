@@ -10,7 +10,16 @@ The redesign can at 25/09/2022 be viewed live at https://johanjohnthomas.github.
 
 The following are the group members:
 Name           | GitHub id
+
+
 Eliyas Shoukat - well-blip 
+
+
 Maulik         - maulikshh
+
+
 Amin Maleh     - AminMaleh2003
+
+
 Ziyaanmir      - ZiyaanMir
+
