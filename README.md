@@ -9,17 +9,19 @@ This repository contains the files for the redesign.
 The redesign can at 25/09/2022 be viewed live at https://johanjohnthomas.github.io/RedesignRoverP6Parts/
 
 The following are the group members:
+
+
 Name           | GitHub id
 
 
-Eliyas Shoukat - well-blip 
+Eliyas Shoukat | well-blip 
 
 
-Maulik         - maulikshh
+Maulik         | maulikshh
 
 
-Amin Maleh     - AminMaleh2003
+Amin Maleh     | AminMaleh2003
 
 
-Ziyaanmir      - ZiyaanMir
+Ziyaanmir      | ZiyaanMir
 
